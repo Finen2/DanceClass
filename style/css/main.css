@@ -1,7 +1,21 @@
+* {
+  box-sizing: border-box; }
+
 body {
   background-image: url("../../content/img/bg.JPG");
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: 100vw auto; }
+
+.container-fluid {
+  margin: 0;
+  margin-top: 15em; }
+
+.modal {
+  background-color: #fff;
+  width: 40%;
+  left: auto;
+  right: auto; }
 
 .footer {
   position: fixed;
@@ -11,5 +25,12 @@ body {
   background-color: red;
   color: white;
   text-align: center; }
+
+.card-group {
+  margin: 0;
+  width: 100%;
+  padding: 0; }
+  .card-group .card {
+    margin: 0 10% 0 10%; }
 
 /*# sourceMappingURL=main.css.map */
