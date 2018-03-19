@@ -1,22 +1,23 @@
 // Arrays of login data.
 
-let users = {
-  student:[
+const users = [
+    {student:{
     firstName: 'Stina',
     lastName: 'Larsson',
     age: '14',
+    email: 'st@kaka.se',
     password: 'kaka1234',
     classes: 'street,balle,breackDance'
-  ],
-  teacher:[
+    }},
+    {teacher:{
     firstName: 'Emmi',
     lastName: 'Rojas',
     age: '34',
+    email: 'er@kaka.se',
     password: 'kaka1234',
     classes: 'street,balle,breackDance'
-  ]
-},
-
+  }}
+];
 
 /*
   var promise = {
