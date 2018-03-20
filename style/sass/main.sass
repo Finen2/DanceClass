@@ -8,6 +8,10 @@
 body
   background-color: grey
 
+nav
+  height: 7em
+  transition: all 0.5s
+
 .container-fluid
   margin: 0
   padding: 0
@@ -20,10 +24,30 @@ body
   padding: 0
   padding-top: 15em
 
-  background-image: url("../../content/img/bg.JPG")
+  background-image: url("../../content/img/bg.jpg")
   background-repeat: no-repeat
   background-attachment: fixed
   background-size: 100vw auto
+
+  p,h1
+    background-color: #fff
+    width: auto
+
+.fullSize
+  height: 100vh
+
+.bg
+  background-image: url("../../content/img/StudentBg.jpg")
+
+.indexBg
+  background-image: url("../../content/img/indexBg.jpg")
+
+.extraBg
+    background-image: url("../../content/img/extraBg.jpg")
+
+.color
+  background-image: none
+  background: #fff
 
 .img-responsive
   height: 7em
@@ -35,19 +59,10 @@ body
   left: auto
   right: auto
 
-
-.footer
-  position: fixed
-  left: 0
-  bottom: 0
-  width: 100%
-  background-color: red
-  color: white
-  text-align: center
-
 .card-group
+  height: 50vh
   margin: 0
   width: 100%
   padding: 0
   .card
-    margin: 0 10% 0 10%
+    margin: 3em 10% 3em 10%
