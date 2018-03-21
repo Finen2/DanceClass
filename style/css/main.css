@@ -27,7 +27,9 @@ nav {
     width: auto; }
 
 .fullSize {
-  height: 100vh; }
+  height: 100vh;
+  max-width: 100%;
+  overflow: hidden; }
 
 .bg {
   background-image: url("../../content/img/StudentBg.jpg"); }
@@ -37,6 +39,9 @@ nav {
 
 .extraBg {
   background-image: url("../../content/img/extraBg.jpg"); }
+
+.startBg {
+  background-image: url("../../content/img/startBg.jpg"); }
 
 .color {
   background-image: none;
@@ -59,5 +64,32 @@ nav {
   padding: 0; }
   .card-group .card {
     margin: 3em 10% 3em 10%; }
+
+.contactForm {
+  /*Contact sectiom */ }
+  .contactForm .content-header {
+    color: #000;
+    font-size: 45px; }
+  .contactForm .section-content {
+    text-align: center; }
+  .contactForm #contact {
+    width: 100%;
+    width: 100vw;
+    color: #fff; }
+  .contactForm .form-control {
+    font-size: 1.3em;
+    color: #080808; }
+  .contactForm .formCenter .halfWidth {
+    width: 50%;
+    margin-left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0); }
+  .contactForm textarea.form-control {
+    height: 135px; }
+  .contactForm .submit {
+    font-size: 1.1em;
+    float: right;
+    width: 150px;
+    color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
