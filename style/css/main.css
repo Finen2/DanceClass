@@ -22,6 +22,9 @@ nav {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100vw auto; }
+  @media screen and (max-width: 1440px) {
+    .jumbotron {
+      height: 75vh; } }
   .jumbotron p, .jumbotron h1 {
     background-color: #fff;
     width: auto; }
@@ -30,6 +33,9 @@ nav {
   height: 100vh;
   max-width: 100%;
   overflow: hidden; }
+  @media screen and (max-width: 1440px) {
+    .fullSize {
+      height: 150vh; } }
 
 .bg {
   background-image: url("../../content/img/StudentBg.jpg"); }
@@ -62,6 +68,9 @@ nav {
   margin: 0;
   width: 100%;
   padding: 0; }
+  @media screen and (max-width: 1440px) {
+    .card-group {
+      height: 75vh; } }
   .card-group .card {
     margin: 3em 10% 3em 10%; }
 

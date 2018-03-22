@@ -1,4 +1,7 @@
 //Varabels
+$midDisplay: 1440px
+
+$midScale: 0
 
 //Styling
 
@@ -7,6 +10,7 @@
 
 body
   background-color: grey
+
 
 nav
   height: 7em
@@ -28,6 +32,8 @@ nav
   background-repeat: no-repeat
   background-attachment: fixed
   background-size: 100vw auto
+  @media screen and (max-width: $midDisplay)
+    height: 75vh
 
   p,h1
     background-color: #fff
@@ -37,6 +43,8 @@ nav
   height: 100vh
   max-width: 100%
   overflow: hidden
+  @media screen and (max-width: $midDisplay)
+    height: 150vh
 
 .bg
   background-image: url("../../content/img/StudentBg.jpg")
@@ -69,6 +77,8 @@ nav
   margin: 0
   width: 100%
   padding: 0
+  @media screen and (max-width: $midDisplay)
+    height: 75vh
   .card
     margin: 3em 10% 3em 10%
 
