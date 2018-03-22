@@ -7,7 +7,7 @@ var textData1 = "Dancing Training for Adults and Youth from age 14- . Dancing st
 var textData2 = "At the Dancing lion we have classes in Baley, Street, Breack Dance and Steep Dance (Kids only).";
 
 //Jumbotron
-var description1 = "Hahahahaha <br> hfajfdaj";
+var description1 = "Dancing Lion is a dancing school held on you free time. <br> We have classes for kids and youth and adults. Our goal is to teach you to express your self through movment as a artform. <br> We have classes in Baley both for kids and adults, Street dance for kids and adults, Breack dance for kids and adults and Steep dance only for kids. <br> Our values is disiplin and respedct and that everyone needs to have fun. <br> so if you have more questions or is intressted of starting send us a message below.";
 
 window.onload = function(){
   //document.querySelectorAll(".card");
