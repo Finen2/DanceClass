@@ -21,6 +21,13 @@ Functoinalety:
   A.
 
 
+(OBS!!!)
+
+  Important data:
+  1. google calender api.
+    A. Client id:
+      577238333057-e6vcphgeorsj9jgchpsd2f4bb9f00kfr.apps.googleusercontent.com
+
 (How to set html in Javascript)
 Select tje right path to post to:
 
