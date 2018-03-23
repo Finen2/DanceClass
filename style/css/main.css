@@ -34,10 +34,9 @@ nav {
 .fullSize {
   height: 100vh;
   max-width: 100%;
-  overflow: hidden; }
-  @media screen and (max-width: 1440px) {
-    .fullSize {
-      height: 100vh; } }
+  overflow: hidden;
+  /*@media screen and (max-width: $midDisplay)
+   * height: 100vh */ }
 
 .bg {
   background-image: url("../../content/img/StudentBg.jpg"); }
@@ -75,6 +74,8 @@ nav {
       height: 75vh; } }
   .card-group .card {
     margin: 3em 10% 3em 10%; }
+  .card-group .cardsRow4 {
+    margin: 3em 5% 3em 5%; }
 
 .contactForm {
   /*Contact sectiom */ }
