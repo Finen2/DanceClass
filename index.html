@@ -21,8 +21,10 @@
       </nav>
 
       <!--Login modal-->
-        <div class="modal hide" id="myModal" tabindex="-1" role="dialog">
-          <div class="modal-header">
+        <div class="modal hide fade" id="myModal" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
             <button type=button class="close" data-dismiss="modal" id="closeModal">&times;</button>
           </div>
           <div class="modal-body">
@@ -34,6 +36,8 @@
               </p>
             </form>
           </div>
+          </div>
+        </div>
         </div>
 
     <!--Content-->
@@ -81,28 +85,28 @@
         <h1>Types of dance</h1>
         <div class="card-group col-xl-12">
           <div class="card cardsRow4">
-            <img class="card-img-top" src="../content/img/testImg.png" alt="Card image cap">
+            <img class="card-img-top" src="content/img/testImg.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Ballet</h5>
               <p class="card-text">Error wihile loading text</p>
             </div>
           </div>
           <div class="card cardsRow4">
-            <img class="card-img-top" src="../content/img/testImg.png" alt="Card image cap">
+            <img class="card-img-top" src="content/img/testImg.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Breack Dance</h5>
               <p class="card-text">Error wihile loading text</p>
             </div>
           </div>
           <div class="card cardsRow4">
-            <img class="card-img-top" src="../content/img/testImg.png" alt="Card image cap">
+            <img class="card-img-top" src="content/img/testImg.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Street</h5>
               <p class="card-text">Error wihile loading text</p>
             </div>
           </div>
           <div class="card cardsRow4">
-            <img class="card-img-top" src="../content/img/testImg.png" alt="Card image cap">
+            <img class="card-img-top" src="content/img/testImg.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Steep</h5>
               <p class="card-text">Error wihile loading text</p>
@@ -119,6 +123,31 @@
           <br>
           <t id="countDown"></t>
         </p>
+        <!-- Button trigger modal -->
+          <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalCenter">
+            See more about competisions here
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
 
       <div class="jumbotron fullSize extraBg contactForm">
